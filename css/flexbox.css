@@ -9,7 +9,11 @@
   flex-direction: row;*/
   display: flex;
   flex-wrap: wrap;
-  /*height: 280px;*/
+  height: 450px;
+  align-items: stretch;
+  /*align-items: flex-start;*/
+  /*align-items: flex-end;*/
+  /*align-items: center;*/
   /*justify-content: flex-end;*/
   /*justify-content: center;*/
   /*justify-content: space-around;*/
@@ -27,6 +31,8 @@
   /*margin-right: auto;*/
   /*order: 1*/
   /*flex-grow: 4;*/
+  align-self: flex-start;
+  align-self: flex-end;
 }
 .item-2 {
   /*margin-right: auto;*/
@@ -35,6 +41,9 @@
 }
 .item-3 {
   /*flex-grow: 3;*/
+}
+.item-4 {
+  align-self: center;
 }
 .item-6 {
   /*order: -1;*/
