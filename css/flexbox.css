@@ -16,9 +16,13 @@
   justify-content: space-between;
 }
 
-/*.item-1 {
-  margin-right: auto;
-}*/
+.item-1 {
+  /*margin-right: auto;*/
+  order: 1
+}
 .item-2 {
   margin-right: auto;
+}
+.item-6 {
+  order: -1;
 }
