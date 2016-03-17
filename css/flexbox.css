@@ -2,11 +2,12 @@
   Flexbox
 ==================================== */
 .container {
-  height: 300px;
-  display: flex;
   display: inline-flex;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column-reverse;
   flex-direction: row-reverse;
   flex-direction: column;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 280px;
 }
